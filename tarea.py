@@ -38,3 +38,9 @@ class Tarea:
 
     def set_fecha(self, fecha):
         self.__fecha_entrega = fecha
+        
+    def get_id_tarea(self):
+        return self.__id_tarea
+
+    def set_id_tarea(self, id_tarea):
+        self.__id_tarea = id_tarea
